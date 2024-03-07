@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: uppercase;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+}
+.destra {
+    position: relative;
+    background-color: #cccccc;
+    width: 50%;
+    height: 100vh;
+}
+.sinistra {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #888484;
+    width: 50%;
+    height: 100%;
+}
+
+.gusti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#cioccolato {
+    background-color: rgb(93, 12, 12);
+}
+
+#crema {
+    background-color: rgb(234, 206, 165);
+}
+#puffo {
+    background-color: rgb(101, 217, 240);
+}
+#champagne {
+    background-color: rgb(246, 246, 167);
+}
+#fragola {
+    background-color: rgb(224, 45, 45);
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 280px solid #ffb906;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    height: auto;
+    z-index: 2;
+}
+.pallina {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #cccccc;
+    background-color: #f7eeee;
+    border-radius: 100%;
+    position: absolute;
+    box-shadow: 0px -7px 7px 2px #888888;
+}
+
+#pallina1 {
+    bottom: 220px;
+    left: 50%;
+}
+#pallina2 {
+    bottom: 220px;
+    right: 50%;
+}
+#pallina3 {
+    bottom: 340px;
+    left: calc(50% - 75px);
+}
+
+#compra{
+    width: 150px;
+    height: 100px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: 40px;
+}
+
